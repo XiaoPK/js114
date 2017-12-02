@@ -3,7 +3,7 @@ const main = require('../main/main');
 describe('have a guess', () => {
     it('given number is 1234',function(){
         let number = 1234;
-        let result = mian(number);
+        let result = main(number);
         if(result = '4A0B'){
             expect(result).toEqual('4A0B');
         }
