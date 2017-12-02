@@ -6,7 +6,7 @@ function main(number) {
     for(let i in yourNumber){
         if(yourNumber[i] === number[i]){
             result.push(A);
-        }else{
+        }else if(number.indexOf(yourNumber[i]) !== -1){
             result.push(B);
         }
     }
